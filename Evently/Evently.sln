@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0F79458F-364C-41C2-BD95-4D661805F488}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D9529795-62E3-45FB-8001-07639F9CCA50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{CB3AFDD7-4520-42E0-934F-EFD349338241}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{51E87241-BA34-41BF-AC60-51A60ADA7574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evently.Api", "src\API\Evently.Api\Evently.Api.csproj", "{FB9BB7C4-855D-4AE4-B6C9-C8588CE1FE39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB3AFDD7-4520-42E0-934F-EFD349338241} = {D9529795-62E3-45FB-8001-07639F9CCA50}
+		{51E87241-BA34-41BF-AC60-51A60ADA7574} = {D9529795-62E3-45FB-8001-07639F9CCA50}
+		{FB9BB7C4-855D-4AE4-B6C9-C8588CE1FE39} = {CB3AFDD7-4520-42E0-934F-EFD349338241}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB9BB7C4-855D-4AE4-B6C9-C8588CE1FE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9BB7C4-855D-4AE4-B6C9-C8588CE1FE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9BB7C4-855D-4AE4-B6C9-C8588CE1FE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9BB7C4-855D-4AE4-B6C9-C8588CE1FE39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
