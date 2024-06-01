@@ -2,21 +2,21 @@
 
 A bare bones implementation of an event management modular monolith called Evently.
 
-Primarly built to showcase modular monolith and other practices including:
+Primarly built to showcase modular monolith practices including:
 
 - Separation of modules in code
 - Separation of modules in DB
 - Separation of read and write paths (CQRS)
 - Messaging between modules
 
-**Note** - does **NOT** include other best practices, notably:
+**Note** - does **NOT** currently include other best practices I normally adhere to, most notably:
 
 - Domain Driven Design and all associated practices
+- Clean Architecture practices
 
 ### Features - Implemented
 
 - API endpoint tagging
-- Clean Architecture
 - Minimal APIs
 - OpenAPI/Swagger
 - ORMs (EFCore)
