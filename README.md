@@ -24,11 +24,12 @@ Primarly built to showcase modular monolith and other practices including:
 
 ### Features - To be Implemented
 
+- CI/CD using Github Actions
 - Docker container for DB hosting in development
 - Identity management with KeyCloak
 - MassTransit messaging
 - Outbox and Inbox pattern for guaranteed at least once delivery
 - Structured logging with Serilog and Seq
-- ... more to come
+- ... more to be added
 
 
