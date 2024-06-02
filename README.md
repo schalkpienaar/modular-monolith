@@ -12,11 +12,12 @@ Primarly built to showcase modular monolith practices including:
 **Note** - does **NOT** currently include other best practices I normally adhere to, most notably:
 
 - Domain Driven Design and all associated practices
-- Clean Architecture practices
+
 
 ### Features - Implemented
 
 - API endpoint tagging
+- Clean Architecture
 - Docker containers for App & DB hosting in development
 - Minimal APIs
 - OpenAPI/Swagger
