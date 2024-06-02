@@ -22,13 +22,13 @@ Primarly built to showcase modular monolith practices including:
 - ORMs (EFCore)
 - Vertical slices
 
-### Features - To be Implemented
+### Features - To Be Implemented
 
 - CI/CD using Github Actions
 - Docker container for DB hosting in development
 - Identity management with KeyCloak
-- MassTransit messaging
-- Outbox and Inbox pattern for guaranteed at least once delivery
+- Messaging with MassTransit
+- Inbox and Outbox pattern for guaranteed at least once delivery
 - Structured logging with Serilog and Seq
 - ... more to be added
 
