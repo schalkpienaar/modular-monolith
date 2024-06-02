@@ -6,17 +6,30 @@ services:
       context: "/Users/schalkpienaar/Schalk/Source/GitHub/schalkpienaar/modular-monolith/Evently"
       dockerfile: "src/API/Evently.Api/Dockerfile"
       target: "base"
+      args:
+        BUILD_CONFIGURATION: "Debug"
     command: []
     entrypoint:
-    - "dotnet"
-    - "/app/bin/Debug/net8.0/Evently.Api.dll"
+    - "/opt/rider-debugger/linux-arm64/dotnet/dotnet"
+    - "/opt/rider-debugger/JetBrains.Debugger.Worker.exe"
+    - "--mode=server"
+    - "--frontend-port=57100"
+    - "--backend-port=57300"
+    - "--timeout=60"
     environment:
       ASPNETCORE_ENVIRONMENT: "Development"
       DOTNET_USE_POLLING_FILE_WATCHER: "true"
+      RIDER_DEBUGGER_LOG_DIR: "/var/opt/rider-debugger"
+      RESHARPER_LOG_CONF: "/etc/opt/rider-debugger/backend-log.xml"
     image: "evently.api:dev"
-    ports: []
+    ports:
+    - "127.0.0.1:57000:57100"
+    - "127.0.0.1:57200:57300"
     volumes:
     - "/Users/schalkpienaar/.nuget/packages:/home/app/.nuget/packages"
     - "/Users/schalkpienaar/Schalk/Source/GitHub/schalkpienaar/modular-monolith/Evently/src/API/Evently.Api:/app:rw"
     - "/Users/schalkpienaar/Schalk/Source/GitHub/schalkpienaar/modular-monolith/Evently:/src:rw"
+    - "/Users/schalkpienaar/.local/share/JetBrains/RiderRemoteDebugger/2023.3.3/LinuxArm64:/opt/rider-debugger"
+    - "/Users/schalkpienaar/Library/Application Support/JetBrains/Toolbox/apps/Rider/ch-0/233.14015.60/Rider.app/Contents/bin:/etc/opt/rider-debugger/backend-log.xml"
+    - "/Users/schalkpienaar/Library/Logs/JetBrains/Rider2023.3/DebuggerWorker/JetBrains.Debugger.Worker.2024_6_02_18_28_18:/var/opt/rider-debugger:rw"
     working_dir: "/app"
