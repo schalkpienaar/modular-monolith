@@ -12,6 +12,7 @@ Primarly built to showcase modular monolith practices including:
 **Note** - does **NOT** currently include other best practices I normally adhere to, most notably:
 
 - Domain Driven Design and all associated practices
+- TDD/high test coverage
 
 
 ### Features - Implemented
@@ -31,10 +32,13 @@ Primarly built to showcase modular monolith practices including:
 
 ### Features - To Be Implemented
 
+- Architecture enforcement with architecture tests
 - CI/CD using Github Actions
+- Health checks
 - Identity management with KeyCloak
 - Messaging with MassTransit
 - Inbox and Outbox pattern for guaranteed at least once delivery
+- Result types for handling request succes/failure
 - Structured logging with Serilog and Seq
 - ... more to be added
 
