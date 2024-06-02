@@ -18,11 +18,13 @@ Primarly built to showcase modular monolith practices including:
 
 - API endpoint tagging
 - Clean Architecture
+- Command Validation with FluentValidation
 - CQRS with Mediatr
 - Docker containers for App & DB hosting in development
 - Minimal APIs
 - OpenAPI/Swagger
-- ORMs (EFCore)
+- ORMs (EFCore, Dapper)
+- Static factory methods for domain entities
 - Vertical slices
 
 ### Features - To Be Implemented
