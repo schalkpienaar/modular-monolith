@@ -7,7 +7,7 @@ Primarly built to showcase modular monolith practices including:
 - Separation of modules in code
 - Separation of modules in DB
 - Separation of read and write paths (CQRS)
-- Messaging between modules
+- Event driven architecture
 
 **Note** - does **NOT** currently include other best practices I normally adhere to, most notably:
 
@@ -21,11 +21,13 @@ Primarly built to showcase modular monolith practices including:
 - Command Validation with FluentValidation
 - CQRS with Mediatr
 - Docker containers for App & DB hosting in development
+- Domain events for side effects
 - Minimal APIs
 - OpenAPI/Swagger
 - ORMs (EFCore, Dapper)
 - Static factory methods for domain entities
 - Vertical slices
+
 
 ### Features - To Be Implemented
 
