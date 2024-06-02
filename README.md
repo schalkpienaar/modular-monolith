@@ -18,6 +18,7 @@ Primarly built to showcase modular monolith practices including:
 
 - API endpoint tagging
 - Clean Architecture
+- CQRS with Mediatr
 - Docker containers for App & DB hosting in development
 - Minimal APIs
 - OpenAPI/Swagger
