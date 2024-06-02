@@ -35,6 +35,6 @@ Primarly built to showcase modular monolith practices including:
 
 ### Sample EFCore Migration Command
 
-dotnet ef migrations add Create_Database --context EventsDbContext --startup-project ../../../Api/Evently.Api -o Database/Migrations
+```dotnet ef migrations add Create_Database --context EventsDbContext --startup-project ../../../Api/Evently.Api -o Database/Migrations```
 
 
