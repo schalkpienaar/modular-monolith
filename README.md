@@ -17,6 +17,7 @@ Primarly built to showcase modular monolith practices including:
 ### Features - Implemented
 
 - API endpoint tagging
+- Docker containers for App & DB hosting in development
 - Minimal APIs
 - OpenAPI/Swagger
 - ORMs (EFCore)
@@ -25,7 +26,6 @@ Primarly built to showcase modular monolith practices including:
 ### Features - To Be Implemented
 
 - CI/CD using Github Actions
-- Docker container for DB hosting in development
 - Identity management with KeyCloak
 - Messaging with MassTransit
 - Inbox and Outbox pattern for guaranteed at least once delivery
