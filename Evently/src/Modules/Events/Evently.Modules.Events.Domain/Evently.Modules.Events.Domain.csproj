@@ -3,4 +3,7 @@
     <Folder Include="Categories\" />
     <Folder Include="TicketTypes\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Evently.Common.Domain\Evently.Common.Domain.csproj" />
+  </ItemGroup>
 </Project>
