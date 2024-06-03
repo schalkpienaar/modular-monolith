@@ -23,7 +23,7 @@ internal sealed class ArchiveCategoryCommandHandler(ICategoryRepository category
         }
 
         category.Archive();
-
+        
         await unitOfWork.SaveChangesAsync(cancellationToken);
 
         return Result.Success();

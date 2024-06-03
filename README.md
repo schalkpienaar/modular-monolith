@@ -38,8 +38,9 @@ Primarly built to showcase modular monolith practices including:
 - CI/CD using Github Actions
 - Health checks
 - Identity management with KeyCloak
-- Messaging with MassTransit
 - Inbox and Outbox pattern for guaranteed at least once delivery
+- Messaging with MassTransit
+- Metrics and tracing with OpenTelemtry
 - Structured logging with Serilog and Seq
 - ... more to be added
 
