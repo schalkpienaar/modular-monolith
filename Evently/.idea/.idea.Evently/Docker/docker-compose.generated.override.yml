@@ -16,6 +16,7 @@ services:
     image: "evently.api:dev"
     ports: []
     volumes:
+    - "/Users/schalkpienaar/.microsoft/usersecrets:/home/app/.microsoft/usersecrets"
     - "/Users/schalkpienaar/.nuget/packages:/home/app/.nuget/packages"
     - "/Users/schalkpienaar/Schalk/Source/GitHub/schalkpienaar/modular-monolith/Evently/src/API/Evently.Api:/app:rw"
     - "/Users/schalkpienaar/Schalk/Source/GitHub/schalkpienaar/modular-monolith/Evently:/src:rw"
