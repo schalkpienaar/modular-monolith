@@ -1,4 +1,4 @@
-namespace Evently.Modules.Events.Domain.Abstractions;
+﻿namespace Evently.Modules.Events.Domain.Abstractions;
 
 public abstract class DomainEvent : IDomainEvent
 {
@@ -14,6 +14,7 @@ public abstract class DomainEvent : IDomainEvent
         OccurredOnUtc = occurredOnUtc;
     }
 
-    public Guid Id { get; init; } 
+    public Guid Id { get; init; }
+
     public DateTime OccurredOnUtc { get; init; }
 }
