@@ -26,6 +26,8 @@ Primarly built to showcase modular monolith practices including:
 - Minimal APIs
 - OpenAPI/Swagger
 - ORMs (EFCore, Dapper)
+- Pagination
+- Result types for handling request succes/failure
 - Static factory methods for domain entities
 - Vertical slices
 
@@ -38,7 +40,6 @@ Primarly built to showcase modular monolith practices including:
 - Identity management with KeyCloak
 - Messaging with MassTransit
 - Inbox and Outbox pattern for guaranteed at least once delivery
-- Result types for handling request succes/failure
 - Structured logging with Serilog and Seq
 - ... more to be added
 
