@@ -18,6 +18,7 @@ Also to some degree:
 ### Features - Implemented
 
 - API endpoint tagging
+- Correlation Ids for distributed tracing
 - CQRS pattern with Mediatr
 - Docker containers for App & DB hosting in development
 - Domain events for side effects
@@ -33,6 +34,7 @@ Also to some degree:
 
 ### Features - To Be Implemented
 
+- API Versioning
 - Architecture enforcement with architecture tests
 - CI/CD using Github Actions
 - Distributed caching with REDIS
