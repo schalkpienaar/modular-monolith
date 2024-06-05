@@ -43,6 +43,7 @@ Also to some degree:
 - Inbox and Outbox pattern for guaranteed at least once delivery
 - Messaging with MassTransit
 - Metrics and tracing with OpenTelemtry
+- Split modules into separate projects
 - Structured logging with Serilog and Seq
 - Unit tests
 - ... more to be added
