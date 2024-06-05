@@ -1,6 +1,6 @@
 # modular-monolith
 
-An implementation of an event management modular monolith called Evently.
+A work in progress implementation of an event management modular monolith called Evently.
 
 Primarly built to showcase modular monolith practices including:
 
