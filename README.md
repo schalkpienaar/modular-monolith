@@ -44,6 +44,7 @@ Also to some degree:
 - Messaging with MassTransit
 - Metrics and tracing with OpenTelemtry
 - Structured logging with Serilog and Seq
+- Unit tests
 - ... more to be added
 
 
